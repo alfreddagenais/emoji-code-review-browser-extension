@@ -1,12 +1,16 @@
 # Emoji Code Review - Browser Extension
 
-Tone is advanced enough, however written feedback creates is tough to convey meaning. when many misunderstandings regarding what sure comments meant, we tend to enforced the Emoji Code. whereas it’s not a substitute for written feedback, we incorporate emoji as associate degree indicator for the type of comment we make whenever we can.
+Tone is advanced enough, however written feedback creates is tough to convey meaning.
+
+When many misunderstandings regarding what sure comments meant, we tend to enforced the Emoji Code.
+
+Whereas it’s not a substitute for written feedback, we incorporate emoji as associate degree indicator for the type of comment we make whenever we can.
 
 ## 🎉 Installation
 
 Install the extension according to your browser:
 
-- [Chrome web store](https://chrome.google.com/webstore/detail/emoji-code-review-browser-extension/afhgagpgabbhpjdpakbaofklpgljnhec)
+- [Chrome web store](https://chrome.google.com/webstore/detail/emoji-code-review-browser-extension/mnkadegnapaifimjdoepgaiifcniocgb)
 
 ## 🧩 Features
 

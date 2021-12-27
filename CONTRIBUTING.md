@@ -2,7 +2,11 @@
 
 Hello! 👋
 
-Thanks for contributing on [emoji-code-review-browser-extension](https://github.com/alfreddagenais/emoji-code-review-browser-extension). Before implementing new features and changes, feel free to [submit an issue](https://github.com/alfreddagenais/emoji-code-review-browser-extension/issues/new/choose). We're going to talk here :stuck_out_tongue_winking_eye:.
+Thanks for contributing on [emoji-code-review-browser-extension](https://github.com/alfreddagenais/emoji-code-review-browser-extension).
+
+Before implementing new features and changes, feel free to [submit an issue](https://github.com/alfreddagenais/emoji-code-review-browser-extension/issues/new/choose).
+
+We're going to talk here :stuck_out_tongue_winking_eye:.
 
 This project uses [Svelte](https://svelte.dev/) to create the interface and is build using [Parceljs](https://parceljs.org/).
 
@@ -19,14 +23,14 @@ This project uses [Svelte](https://svelte.dev/) to create the interface and is b
 
 If you want to make changes to the site, follow the next steps:
 
-1. Clone the project
+### 1. Clone the project
 
 ```sh
 git clone https://github.com/alfreddagenais/emoji-code-review-browser-extension.git
 cd emoji-code-review-browser-extension
 ```
 
-2. Install the dependencies and start the development task.
+### 2. Install the dependencies and start the development task.
 
 ```sh
 yarn install && yarn start
@@ -36,7 +40,7 @@ The development task will compile, watch and open the extension in a sandbox web
 
 ## 🚀 Build emoji-code-review-browser-extension
 
-1. Build the extension to test it in your browser
+### 1. Build the extension to test it in your browser
 
 ```sh
 yarn watch
@@ -47,7 +51,7 @@ It will compile and watch the extension under the `dist/` folder. Just load this
 - in Chrome : See point **1** of [Create the manifest step](https://developer.chrome.com/extensions/getstarted#manifest)
 - in Microsoft Edge: Same process than for Chrome
 
-2. Build the extension
+### 2. Build the extension
 
 ```sh
 yarn build

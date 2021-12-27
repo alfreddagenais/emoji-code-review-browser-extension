@@ -31,7 +31,7 @@ const createUserSettingsStore = () => {
       (result) => {
         const autoCloseAfterCopyValue = result[AUTO_CLOSE_AFTER_COPY_KEY] || false
         const themeValue = result[THEME_KEY] || 'light'
-        const showDescriptionValue = result[SHOW_DESCRIPTION_KEY] || false
+        const showDescriptionValue = result[SHOW_DESCRIPTION_KEY] || true
 
         update(settings => {
           return {

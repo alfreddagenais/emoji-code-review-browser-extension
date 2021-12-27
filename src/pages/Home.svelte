@@ -5,8 +5,6 @@
   import logoRegular from '../assets/emoji-code-review-logo.svg'
   import logoLight from '../assets/emoji-code-review-logo-light.svg'
 
-  import { onGetTabInnerHTML } from '../helpers/browser'
-
   const emojisCodeList = require('../data/emojisCodeList.json')
 
   let emojisCode = emojisCodeList
@@ -76,10 +74,6 @@
 
     emojisCode = clonedEmojisCodes
   }
-
-  onGetTabInnerHTML((tabInnerText) => {
-    setEmojisCodesPresentInTab(getEmojisCodesPresentInTab(tabInnerText))
-  })
 
   const setFilter = (value) => {
     filter = value.target.value.toLowerCase()

@@ -1,8 +1,11 @@
 # Privacy Policy
 
-Alfred Dagenais built the Emoji Code Review Browser Extension app as an Open Source app. This SERVICE is provided by Alfred Dagenais at no cost and is intended for use as is.
+Alfred Dagenais built the Emoji Code Review Browser Extension app as an Open Source app.
 
-This page is used to inform visitors regarding the policies with the collection, use, and disclosure of Personal Information if anyone decided to use this Service.
+This SERVICE is provided by Alfred Dagenais at no cost and is intended for use as is.
+
+This page is used to inform visitors regarding the policies with the collection, use, and disclosure of 
+Personal Information if anyone decided to use this Service.
 
 If you choose to use this Service, then you agree to the collection and use of information in relation to this policy.
 
@@ -12,4 +15,4 @@ This browser extension run localy on your machine and does not collect or share 
 
 ## Contact Us
 
-If you have any questions or suggestions about the Privacy Policy, do not hesitate to contact us at https://github.com/alfreddagenais/emoji-code-review-browser-extension/issues/new/choose.
+If you have any questions or suggestions about the Privacy Policy, do not hesitate to contact us and [submit an issue](https://github.com/alfreddagenais/emoji-code-review-browser-extension/issues/new/choose).

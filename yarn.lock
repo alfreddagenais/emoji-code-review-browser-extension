@@ -1360,14 +1360,14 @@
     semver "^5.4.1"
     split2 "^3.1.1"
 
-"@parcel/plugin@^2.0.0-beta.1":
+"@parcel/plugin@^2.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@parcel/plugin/-/plugin-2.0.1.tgz#de6dad81a98e135dad724b581c209332480c70fc"
   integrity sha512-zg9LdUk1fh8UApo9q79ZbG+QCwMioSlBP0+LKYLQqcNketzmjPuhe3rCialR0s2/6QsM1EQbuMUpCmZLSQZ4tA==
   dependencies:
     "@parcel/types" "^2.0.1"
 
-"@parcel/source-map@^2.0.0", "@parcel/source-map@^2.0.0-alpha.4.13":
+"@parcel/source-map@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@parcel/source-map/-/source-map-2.0.0.tgz#41cf004109bbf277ceaf096a58838ff6a59af774"
   integrity sha512-njoUJpj2646NebfHp5zKJeYD1KwhsfQIoU9TnCTHmF9fGOaPbClmeq12G6/4ZqGASftRq+YhhukFBi/ncWKGvw==
@@ -1393,7 +1393,7 @@
   resolved "https://registry.yarnpkg.com/@parcel/utils/-/utils-1.11.0.tgz#539e08fff8af3b26eca11302be80b522674b51ea"
   integrity sha512-cA3p4jTlaMeOtAKR/6AadanOPvKeg8VwgnHhOyfi0yClD0TZS/hi9xu12w4EzA/8NtHu0g6o4RDfcNjqN8l1AQ==
 
-"@parcel/utils@^2.0.0-beta.1", "@parcel/utils@^2.0.1":
+"@parcel/utils@^2.0.0", "@parcel/utils@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@parcel/utils/-/utils-2.0.1.tgz#dd78bfe3562abd2bf3b4f8417758e4e0dbd8350f"
   integrity sha512-+XD+LYDq+VKAUfRPzcsOjq9LefeX6tiQ2zH2uCWYAwA+s+sTHIrvWkKoF3QfFOQpPgj2QqnAZMOS6F/xY2phPg==
@@ -6933,15 +6933,15 @@ parcel-plugin-svelte@^4.0.8:
   resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-4.0.9.tgz#115225d86bcea74021722d270e1532d86698f333"
   integrity sha512-ZMAvd3FS/J+4apTJTZhrQ3gl/37sVSBgMPgjzPuWcIhzvk69zFiUa0vSv8heyGSPVCRwrzr/V3UQQX1uap2uwQ==
 
-parcel-transformer-svelte@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/parcel-transformer-svelte/-/parcel-transformer-svelte-1.1.2.tgz#430893238a5135151ad0b89e9492ca9a912d468a"
-  integrity sha512-sVM/6lRM6j8GxYfiGAxpgyxhqPr1YogCU1FHKKuLzugENDEFvYpmSBdOgLxV4Q+stdrjoKljpxCUupotItDU3A==
+parcel-transformer-svelte@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/parcel-transformer-svelte/-/parcel-transformer-svelte-1.2.3.tgz#e084f7afd7f036f31ec546e1c54104a4f4a3b9b8"
+  integrity sha512-yB0Ng4cYPZJNF3NUySbSvDfQsWPw6tjFwwUExUXd5kJehqZdlussSGGBj6e6jTKdPyIgqrThhx+Um69PFPjTIQ==
   dependencies:
-    "@parcel/plugin" "^2.0.0-beta.1"
-    "@parcel/source-map" "^2.0.0-alpha.4.13"
-    "@parcel/utils" "^2.0.0-beta.1"
-    svelte "^3.24.0"
+    "@parcel/plugin" "^2.0.0"
+    "@parcel/source-map" "^2.0.0"
+    "@parcel/utils" "^2.0.0"
+    svelte "^3.44.0"
 
 parcel@1.12.4:
   version "1.12.4"
@@ -8801,7 +8801,7 @@ svelte-preprocess@4.9.8:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte@^3.24.0, svelte@^3.43.1:
+svelte@^3.43.1, svelte@^3.44.0:
   version "3.44.3"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.3.tgz#795b1ced6ed3da44969099e5061b850c93c95e9a"
   integrity sha512-aGgrNCip5PQFNfq9e9tmm7EYxWLVHoFsEsmKrtOeRD8dmoGDdyTQ+21xd7qgFd8MNdKGSYvg7F9dr+Tc0yDymg==

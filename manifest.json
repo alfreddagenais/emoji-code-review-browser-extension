@@ -1,7 +1,9 @@
 {
   "name": "Emoji Code Review - Browser Extension",
+  "short_name": "Emoji Code Review",
   "version": "1.0.1",
   "description": "The Emoji Code Review extension to easily search and copy emojis 😜",
+  "default_locale": "en",
   "permissions": [
     "storage"
   ],

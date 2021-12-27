@@ -1,0 +1,22 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+h1 {
+  color: lightgray;
+  margin: 0;
+}
+
+#popupContentWrapper {
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 300px;
+  position: relative;
+  width: 400px;
+}

@@ -1,0 +1,9 @@
+node_modules
+.parcel-cache
+dist
+package-lock.json
+yarn-error.log
+.cache
+.DS_Store
+extension.zip
+coverage

@@ -1,0 +1,47 @@
+{
+  "name": "emoji-code-review-browser-extension",
+  "version": "1.0.0",
+  "repository": "https://github.com/alfreddagenais/emoji-code-review-browser-extension.git",
+  "author": "Alfred Dagenais <jesuis@alfreddagenais.com>",
+  "license": "MIT",
+  "scripts": {
+    "move:all": "yarn move:manifest && yarn move:icons",
+    "move:icons": "yarn cpy ./static/icons/ ./dist/icons/",
+    "move:manifest": "yarn cpy ./manifest.json ./dist",
+    "start": "yarn move:all && yarn parcel -p 1424 ./sandbox/popup-sandbox.html --open ",
+    "watch": "yarn move:all && yarn parcel watch './src/**/*.(js|html|png)' --public-url .",
+    "clean": "yarn rimraf ./dist extension.zip",
+    "screenshot": "yarn node scripts/createScreenshot.js",
+    "build": "yarn clean && yarn move:all && yarn parcel build './src/**/*.(js|html|png)' --no-source-maps && yarn node scripts/zipExtension.js",
+    "lint": "yarn eslint ./src",
+    "test": "jest test",
+    "test:watch": "npm run test -- --watch"
+  },
+  "dependencies": {
+    "capture-website": "^2.1.1",
+    "pageres": "^6.2.3",
+    "svelte": "^3.43.1",
+    "svelte-portal": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.8",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/svelte": "^3.0.3",
+    "babel-jest": "^27.2.4",
+    "cpy-cli": "3.1.1",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-svelte3": "2.7.3",
+    "jest": "^27.3.0",
+    "jest-transform-svelte": "^2.1.1",
+    "parcel": "1.12.4",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-svelte": "^4.0.8",
+    "parcel-transformer-svelte": "1.1.2",
+    "rimraf": "3.0.2",
+    "svelte-preprocess": "4.9.8",
+    "zip-folder": "^1.0.0"
+  }
+}

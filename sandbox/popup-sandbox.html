@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="./popup-sandbox.css" />
+    <title>Emoji Code Review - Sandbox</title>
+  </head>
+  <body>
+    <script defer src="../src/popup.js"></script>
+
+    <h1>400 x 300</h1>
+    <div id="popupContentWrapper">
+      <div id="popup-content"></div>
+    </div>
+
+    <script>
+      function getQueryVariable(query, variable) {
+          var vars = query.split('&');
+          for (var i = 0; i < vars.length; i++) {
+              var pair = vars[i].split('=');
+              if (decodeURIComponent(pair[0]) == variable) {
+                  return decodeURIComponent(pair[1]);
+              }
+          }
+          console.log('Query variable %s not found', variable);
+      }
+
+      if (window.location.hash) {
+        // Fragment exists
+        var hash = window.location.hash.substring(1);
+        if (hash && hash !== '') {
+          var search = getQueryVariable(hash, 'search');
+          if (search && search !== '') {
+            console.log('search', search);
+            setTimeout(function(){
+              var input = document.getElementById('emojiCodeSearchInput');
+              if (input) {
+                input.value = search;
+                //input.keypress();
+                //input.keydown();
+                setTimeout(function(){
+                  input.dispatchEvent(new Event('focus'));
+                  // input.dispatchEvent(new KeyboardEvent('keypress',{'key':'a'}));
+                  input.dispatchEvent(new KeyboardEvent('keydown', {
+  key: "e",
+  keyCode: 69,
+  code: "KeyE",
+  which: 69,
+  shiftKey: false,
+  ctrlKey: false,
+  metaKey: false
+}));
+                  input.dispatchEvent(new Event('blur'));
+                }, 500);
+              }
+            }, 1000);
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

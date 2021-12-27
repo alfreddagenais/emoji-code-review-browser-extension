@@ -1,0 +1,79 @@
+[
+  {
+    "name": "05-IlikeThis",
+    "code": "I like this...",
+    "description": "This is great or I like this! Use this to motivate people. Don’t overuse it, but certainly point out if you like something.",
+    "emoji": ["👍", "😃", "💯"],
+    "tags": ["like", "great", "good job", "goodjob", "perfect", "motivation"]
+  },
+  {
+    "name": "10-Ajustements",
+    "code": "I think this needs to be ajusted...",
+    "description": "This is a concern or suggested change/refactor that I feel is worth addressing. This is a well-meant suggestion. Take it or leave it.",
+    "emoji": "🔧",
+    "tags": ["ajust", "suggest", "refactor", "changes", "change", "bug", "🐛"]
+  },
+  {
+    "name": "15-Question",
+    "code": "I have a question on ... / can you clarify?",
+    "description": "This should be a fully formed question with sufficient information and context that requires a response.",
+    "emoji": "❓",
+    "tags": ["question", "notsure", "clarify"]
+  },
+  {
+    "name": "20-Suggestion",
+    "code": "I have a suggestion or might express on concern on...",
+    "description": "I might express concern, suggest an alternative solution, or walk through the code in my own words to make sure I understand.",
+    "emoji": ["💭", "🤔"],
+    "tags": ["suggestion", "alternative"]
+  },
+  {
+    "name": "25-Nitpick",
+    "code": "This is a nitpick",
+    "description": "This is a nitpick. Normally related to a small formatting or stylizing detail that shouldn’t block moving forward.",
+    "emoji": ["🙃", "🎨"],
+    "tags": ["stylizing", "style", "art", "artistic", "⛏"]
+  },
+  {
+    "name": "30-Problem",
+    "code": "Here is an actual problem",
+    "description": "I’m a bit nervous about this change and what it might introduce after merging, and would like to better understand why it is needed. It might be a bug or a strict code style fix.",
+    "emoji": ["❌", "🚨"],
+    "tags": ["error", "problematic", "fatal", "urgent"]
+  },
+  {
+    "name": "35-ProblemNotInYourWork",
+    "code": "Here is a problem independent from your work",
+    "description": "It would be nice if we would open up a ticket and discuss about that. Or is an opportunity, not directly related to your changes, for us to leave the campground [code] cleaner than we found it.",
+    "emoji": ["🤡", "🏕"],
+    "tags": ["discuss"]
+  },
+  {
+    "name": "40-Refactoring",
+    "code": "Suggestion for refactoring",
+    "description": "Should include enough context to be actionable and not be considered a nitpick.",
+    "emoji": ["♻️", "🗑️"],
+    "tags": ["refactor", "suggestion"]
+  },
+  {
+    "name": "45-OutOfScope",
+    "code": "That is out of scope",
+    "description": "This is a concern that is out of scope and should be staged appropriately for follow up.",
+    "emoji": "📌",
+    "tags": ["pin", "followup"]
+  },
+  {
+    "name": "50-FutureElement",
+    "code": "Planting a seed for future",
+    "description": "An observation or suggestion that is not a change request, but may have larger implications. Generally something to keep in mind for the future.",
+    "emoji": "🌱",
+    "tags": ["futur", "improvement"]
+  },
+  {
+    "name": "55-Note",
+    "code": "Here is a note",
+    "description": "This is an explanatory note, fun fact, or relevant commentary that does not require any action.",
+    "emoji": ["📝", "🖊️"],
+    "tags": ["notepad", "notepads", "notes", "fun", "comments"]
+  }
+]

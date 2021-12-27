@@ -9,7 +9,7 @@
     settings.setTheme(theme)
   }
 
-  $: arrowLeft = ($settings.theme === 'dark' ? 'arrow-left-light' : 'arrow-left-regular');
+  $: arrowLeft = ($settings.theme === 'dark' ? 'arrow-left-light' : 'arrow-left-regular')
 </script>
 
 <style>

@@ -28,10 +28,10 @@
 
   const filterManual = () => {
     setTimeout(() => {
-      const input = document.getElementById('emojiCodeSearchInput');
+      const input = document.getElementById('emojiCodeSearchInput')
       const valueInput = input.value
-      setFilterManual(valueInput);
-    }, 1500);
+      setFilterManual(valueInput)
+    }, 1500)
   }
 </script>
 

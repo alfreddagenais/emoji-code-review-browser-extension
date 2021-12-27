@@ -86,11 +86,10 @@
   }
 
   const setFilterManual = (value) => {
-    console.log('value', value)
     filter = value.toLowerCase()
   }
 
-  $: logo = ($settings.theme === 'dark' ? logoLight : logoRegular);
+  $: logo = ($settings.theme === 'dark' ? logoLight : logoRegular)
 </script>
 
 <style>

@@ -51,30 +51,6 @@
 
   $: filteredEmojisCodes = getFilteredEmojisCodes(emojisCode, filter)
 
-  const getEmojisCodesPresentInTab = (tabInnerText) => {
-    return emojisCode.filter(emojiCode => {
-      const stringsToSearch = [emojiCode.code, emojiCode.emoji]
-
-      return stringsToSearch.some(stringToSearch => {
-        return tabInnerText.includes(stringToSearch)
-      })
-    })
-  }
-
-  const setEmojisCodesPresentInTab = (emojisCodePresentInTab) => {
-    const clonedEmojisCodes = [...emojisCode]
-    emojisCodePresentInTab.forEach(emojiCodePresentInTab => {
-      const emojiCodePresentInTabIndex = clonedEmojisCodes.findIndex(emojiCode => {
-        return emojiCode.name === emojiCodePresentInTab.name
-      })
-      emojiCodePresentInTab.present = true
-
-      clonedEmojisCodes[emojiCodePresentInTabIndex] = emojiCodePresentInTab
-    })
-
-    emojisCode = clonedEmojisCodes
-  }
-
   const setFilter = (value) => {
     filter = value.target.value.toLowerCase()
   }

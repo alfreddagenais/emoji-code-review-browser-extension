@@ -11,7 +11,7 @@
     "start": "yarn move:all && yarn parcel -p 1424 ./sandbox/popup-sandbox.html --open ",
     "watch": "yarn move:all && yarn parcel watch './src/**/*.(js|html|png)' --public-url .",
     "clean": "yarn rimraf ./dist extension.zip",
-    "screenshot": "yarn node scripts/createScreenshot.js",
+    "screenshot": "concurrently --kill-others \"yarn start\" \"yarn node scripts/createScreenshot.js\"",
     "build": "yarn clean && yarn move:all && yarn parcel build './src/**/*.(js|html|png)' --no-source-maps && yarn node scripts/zipExtension.js",
     "lint": "yarn eslint ./src",
     "test": "jest test",
@@ -27,8 +27,11 @@
     "@babel/preset-env": "^7.15.8",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/svelte": "^3.0.3",
+    "axios": "^0.24.0",
     "babel-jest": "^27.2.4",
+    "concurrently": "^6.5.1",
     "cpy-cli": "3.1.1",
+    "dotenv": "^10.0.0",
     "eslint": "7.32.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-jest": "^25.3.0",
@@ -42,6 +45,7 @@
     "parcel-transformer-svelte": "1.2.3",
     "rimraf": "3.0.2",
     "svelte-preprocess": "4.10.1",
+    "tinify": "^1.6.1",
     "zip-folder": "^1.0.0"
   }
 }

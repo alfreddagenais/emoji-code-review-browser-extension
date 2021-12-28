@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 🐛  Changed
+
+- package parcel-transformer-svelte from 1.1.2 to 1.2.3
+- package svelte-preprocess from 4.9.8 to 4.10.1
+
 ## [1.0.1] - 2021-12-28
 
 ### 🐛  Changed
